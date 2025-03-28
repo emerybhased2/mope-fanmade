@@ -1,0 +1,35 @@
+{
+  "name": "mopeio-fanmade-game",
+  "version": "1.0.0",
+  "description": "A fanmade game inspired by mope.io, featuring multiplayer gameplay and unique mechanics.",
+  "main": "src/server/server.ts",
+  "scripts": {
+    "start": "ts-node src/server/server.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/server/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/express-serve-static-core": "^5.0.6",
+    "@types/node": "^22.13.14",
+    "@types/serve-static": "^1.15.7",
+    "@types/socket.io": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.0"
+  },
+  "keywords": [
+    "game",
+    "multiplayer",
+    "typescript",
+    "socket.io"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
